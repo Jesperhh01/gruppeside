@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MemberCard from '../components/MemberCard.astro';
+import { members } from '../data/members.js';
+---
+
+<Layout>
+	<main>
+		<header class="hero">
+			<div class="hero-content">
+				<h1>Bachelor Group Portfolio</h1>
+				<p class="hero-subtitle">Meet our talented team of developers, designers, and data scientists</p>
+			</div>
+		</header>
+		
+		<section class="members-section">
+			<div class="container">
+				<h2>Our Team</h2>
+				<div class="members-grid">
+					{members.map(member => (
+						<MemberCard member={member} />
+					))}
+				</div>
+			</div>
+		</section>
+		
+

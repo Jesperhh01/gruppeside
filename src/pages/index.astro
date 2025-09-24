@@ -1,11 +1,37 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Smart link handling for both local and GitHub Pages
+const isDev = import.meta.env.DEV;
+const membersLink = isDev ? '/members' : '/gruppeside/members';
 ---
 
 <Layout>
-	<Welcome />
+	<main>
+		<header class="hero">
+			<div class="hero-content">
+				<h1>Bachelor Group Portfolio</h1>
+				<p class="hero-subtitle">Meet our talented team of developers, designers, and data scientists</p>
+				<a href={membersLink} class="cta-button">Se alle medlemmer</a>
+			</div>
+		</header>
+		
+		<section class="about-section">
+			<div class="container">
+				<h2>About Our Group</h2>
+				<div class="about-content">
+					<p>
+						We are a dedicated team of bachelor students passionate about technology and innovation. 
+						Our diverse skills complement each other, allowing us to tackle complex projects from 
+						multiple angles - from user experience design to backend development and data analysis.
+					</p>
+					<p>
+						Together, we're working on exciting projects that combine our individual strengths 
+						to create meaningful solutions. Feel free to reach out to any of us to learn more 
+						about our work or potential collaborations!
+					</p>
+				</div>
+			</div>
+		</section>
+	</main>
 </Layout>
