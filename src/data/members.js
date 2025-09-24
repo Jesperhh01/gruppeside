@@ -9,7 +9,7 @@ export const members = [
     Jeg er veldig glad i å lære språk og lære om nye kulturer. Jeg gikk tidligere på japanske studier ved UiO. 
     Jeg liker også å engasjere meg i viktige saker på fritiden. Jeg er verv i Nito student styret og står ofte på stands for å verve nye medlemmer. 
     Tidligere jobb erfaring har jeg jobbet på Rema 1000 og Care1 (Apple verksted) så jeg har god erfaring med kunder. For tiden jobber jeg også hos Sikri i praksis.`,
-    image: "/images/jesper.jpg",
+    image: "/gruppeside/images/jesper.jpg",
     skills: ["C#/.NET", "Python", "JS/Node.js", "Java", "React"],
     email: "jesper.hansen@student.uib.no",
     linkedin: "https://www.linkedin.com/in/jesper-heidenberg-hansen-28069a35b/",
@@ -24,7 +24,7 @@ export const members = [
     Jeg har en bachelor i Markedsføring og Ledelse, før jeg gikk videre til IT og informasjonssystemer. Denne kombinasjonen gjør jeg er særlig interessert i prosjektledelse og effektiv kommunikasjon. 
     Som standansvarlig i styret til NITO Studentene Agder har jeg koordinert standaktiviteter, bidratt til målrettet verving av nye medlemmer og representert organisasjonen på landsmøtet. I høst har jeg også praksis-prosjekt hos Digin.
     På fritiden er jeg skribent for et nettmagasin, hvor jeg anmelder konserter og plater. Ellers er jeg glad i spille dataspill, reise og engasjere meg i Formel 1.`,
-    image: "/images/adrian.jpg",
+    image: "/gruppeside/images/adrian.jpg",
     skills: ["C#", "CSS"],
     email: "adrian.oien@student.uib.no",
     linkedin: "https://www.linkedin.com/in/adrian-%C3%B8ien/",
@@ -41,7 +41,7 @@ export const members = [
     Gjennom studiet har jeg vært innom blant annet Java, databaser, GIS, algoritmer og Python.
     Jeg er interessert i frontend og liker å jobbe med prosjekt og design, og syns datasikkerhet er interessant. 
     Jeg liker å lære nye ting, og er veldig fleksibel. Jeg har erfaring innen kundeservice og har hatt en rekke varierte jobber, blant annet på restaurant, i barnehage og som omviser.`,
-    image: "/images/liv.jpg",
+    image: "/gruppeside/images/liv.jpg",
     skills: ["Figma", "CSS", "Design"],
     email: "liv.staaland@student.uib.no",
     linkedin: "http://www.linkedin.com/in/liv-gudrun-staaland-a4517a321",
@@ -51,13 +51,13 @@ export const members = [
   {
     id: 4,
     name: "Ole Hagberg",
-    role: "Data Scientist",
+    role: "Full Stack Utvikler",
     bio: `Heisann, jeg stammer fra Nesodden i Akershus.
     Student ved UiA, tjenestegjort på fregatt og jobbet 2 år på SFO. 
     Jeg interesser meg mye for bil, racing, spill og utvikling. Glad i å reise innenlands og utenlands.
     Som person er jeg lett å jobbe med og jeg kan jobbe med hva som helst, men jeg liker best back-end. Språklig har jeg jobbet mye med TypeScript, C#, Java og rammeverk som SvelteKit, Prisma, Express.js.`,
-    image: "/images/ole.jpg",
-    skills: ["Alt som finnes"],
+    image: "/gruppeside/images/ole.jpg",
+    skills: ["C#", "TypeScript", "Java", "SvelteKit", "Prisma", "Express.js"],
     email: "ole.hagberg@student.uib.no",
     linkedin: "https://www.linkedin.com/in/ole-hagberg-6024bb381/",
     github: "https://github.com/CataDev0",
@@ -71,7 +71,7 @@ export const members = [
     Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i back-end programming, hovedsakelig Python. 
     Jeg har også en sterk interesse for databaser og database-håndtering (MySQL og Postgres), datasikkerhet, og UX-design (Figma). På siden av studiene sitter jeg i styret til NITO-studentene Kristiansand. 
     På fritiden liker jeg å holde meg aktivt ved å trene styrke og løpe. God musikk og fjellturer gir meg ro i sjela.`,
-    image: "/images/camilla.jpg",
+    image: "/gruppeside/images/camilla.jpg",
     skills: ["HTML", "CSS", "Python", "Figma", "PostgreSQL", "MySQL"],
     email: "camilla.remoy@student.uib.no",
     linkedin: "http://www.linkedin.com/in/camilla-uglem-rem%C3%B8y-462599229",
@@ -86,7 +86,7 @@ export const members = [
     Jeg er Mathias Thorsell og er student ved UiA, jeg har en stor interesse for teknologi og prosjekter.
     Jeg liker å arbeide med fullstack og språkene jeg liker best er Python, C# og Java
     Jeg er svært fleksibel og gleder meg til nye utfordringer. I fritiden liker jeg å spille, tegne og jobbe med mini-prosjekter.`,
-    image: "/images/mathias.jpg",
+    image: "/gruppeside/images/mathias.jpg",
     skills: ["Python", "C#", "Java", "JavaScript", "Machine Learning", "UX Design"],
     email: "mathiastho@uia.no",
     linkedin: "https://www.linkedin.com/in/mathias-thorsell-85a248237/",

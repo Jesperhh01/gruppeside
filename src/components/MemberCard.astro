@@ -22,7 +22,7 @@ const { member } = Astro.props;
     <img 
       src={member.image} 
       alt={member.name}
-      onerror="this.src='/images/placeholder-avatar.jpg'"
+      loading="lazy"
     />
   </div>
   

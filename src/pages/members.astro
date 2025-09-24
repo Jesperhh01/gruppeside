@@ -8,14 +8,14 @@ import { members } from '../data/members.js';
 	<main>
 		<header class="hero">
 			<div class="hero-content">
-				<h1>Bachelor Group Portfolio</h1>
-				<p class="hero-subtitle">Meet our talented team of developers, designers, and data scientists</p>
+				<h1>Our Team Members</h1>
+				<p class="hero-subtitle">Meet the talented individuals in our bachelor group</p>
 			</div>
 		</header>
 		
 		<section class="members-section">
 			<div class="container">
-				<h2>Our Team</h2>
+				<h2>Team Portfolio</h2>
 				<div class="members-grid">
 					{members.map(member => (
 						<MemberCard member={member} />
@@ -23,5 +23,6 @@ import { members } from '../data/members.js';
 				</div>
 			</div>
 		</section>
-		
+	</main>
+</Layout>
 
