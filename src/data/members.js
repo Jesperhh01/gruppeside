@@ -3,6 +3,7 @@ export const members = [
   {
     id: 1,
     name: "Jesper Heidenberg Hansen",
+    slug: "jesper",
     role: "Full Stack Utvikler",
     bio: `Hei, jeg er 24 år og kommer fra Sarpsborg. Jeg har en sterk lidenskap for teknologi og elsker å utforske nye måter å gjøre ting på. 
     Jeg er glad i å drive egne små projekter på fritiden som å lage apper eller små spill. På bildet kan dere se meg i en japansk yukata. 
@@ -19,7 +20,8 @@ export const members = [
   {
     id: 2,
     name: "Adrian van Mallinckrodt Øien",
-    role: "Projekt leder",
+    slug: "adrian",
+    role: "Team Leder & Scrum Master",
     bio: `Jeg er 27 år og kommer fra Kristiansand. 
     Jeg har en bachelor i Markedsføring og Ledelse, før jeg gikk videre til IT og informasjonssystemer. Denne kombinasjonen gjør jeg er særlig interessert i prosjektledelse og effektiv kommunikasjon. 
     Som standansvarlig i styret til NITO Studentene Agder har jeg koordinert standaktiviteter, bidratt til målrettet verving av nye medlemmer og representert organisasjonen på landsmøtet. I høst har jeg også praksis-prosjekt hos Digin.
@@ -34,6 +36,7 @@ export const members = [
   {
     id: 3,
     name: "Liv Gudrun Staaland",
+    slug: "liv",
     role: "UI/UX Designer & Frontend Utvikler",
     bio: `Hei, jeg er en 22 år gammel student som kommer fra Vinje i Telemark.
     Tidligere har jeg tatt et årsstudium med engelsk på USN, Midt-Telemark.
@@ -51,6 +54,7 @@ export const members = [
   {
     id: 4,
     name: "Ole Hagberg",
+    slug: "ole",
     role: "Full Stack Utvikler",
     bio: `Heisann, jeg stammer fra Nesodden i Akershus.
     Student ved UiA, tjenestegjort på fregatt og jobbet 2 år på SFO. 
@@ -66,6 +70,7 @@ export const members = [
   {
     id: 5,
     name: "Camilla Uglem Remøy",
+    slug: "camilla",
     role: "Database Administrator og Utvikler",
     bio: `Hei, jeg er 24 år og kommer fra Kongsberg. 
     Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i back-end programming, hovedsakelig Python. 
@@ -81,6 +86,7 @@ export const members = [
   {
     id: 6,
     name: "Mathias Thorsell",
+    slug: "mathias",
     role: "Full Stack Utvikler",
     bio: `21 år, Sandnes
     Jeg er Mathias Thorsell og er student ved UiA, jeg har en stor interesse for teknologi og prosjekter.

@@ -83,10 +83,131 @@ main {
 
 .members-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(3, 1fr);
 	gap: 2rem;
 	margin-bottom: 2rem;
+	align-items: start;
 }
+
+@media (max-width: 1024px) {
+	.members-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+
+/* Member page */
+.member-detail-section {
+	padding: 4rem 0;
+	background: white;
+}
+
+.member-detail-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 4rem;
+	align-items: start;
+}
+
+.member-content {
+	padding-right: 2rem;
+}
+
+.member-bio {
+	font-size: 1.125rem;
+	line-height: 1.7;
+	color: #4b5563;
+	margin-bottom: 2rem;
+	white-space: pre-line;
+}
+
+.member-skills {
+	margin-top: 2rem;
+}
+
+.member-skills h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #1f2937;
+	margin-bottom: 1rem;
+}
+
+.member-skill-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+.member-skill-tag {
+	background: linear-gradient(83.21deg, #3245ff 0%, #bc52ee 100%);
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 25px;
+	font-size: 0.875rem;
+	font-weight: 500;
+	box-shadow: 0 2px 4px rgba(50, 69, 255, 0.2);
+}
+
+.member-image-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.member-profile-image {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 20px;
+	box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 2rem;
+}
+
+.member-social-links {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.member-social-link {
+	color: #6b7280;
+	transition: color 0.2s ease;
+	padding: 0.5rem;
+	border-radius: 10px;
+	background: #f9fafb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.member-social-link:hover {
+	background: #f3f4f6;
+	color: #3b82f6;
+}
+
+.member-social-link.email:hover { color: #ef4444; }
+.member-social-link.linkedin:hover { color: #0077b5; }
+.member-social-link.github:hover { color: #333; }
+.member-social-link.portfolio:hover { color: #8b5cf6; }
+
+/* Responsive design for member page */
+@media (max-width: 768px) {
+	.member-detail-container {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+	
+	.member-content {
+		padding-right: 0;
+	}
+	
+	.member-detail-section {
+		padding: 2rem 0;
+	}
+}
+
+
+
+
 
 /* About section */
 .about-section {
@@ -130,6 +251,8 @@ main {
 		grid-template-columns: 1fr;
 		gap: 1.5rem;
 	}
+	
+
 	
 	.container {
 		padding: 0 1rem;
