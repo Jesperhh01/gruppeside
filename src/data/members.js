@@ -24,14 +24,13 @@ export const members = [
     id: 2,
     name: "Adrian van Mallinckrodt Øien",
     slug: "adrian",
-    role: "Team Leder & Scrum Master",
-    bio: `Jeg er 27 år og kommer fra Kristiansand. 
-    Jeg har en bachelor i Markedsføring og Ledelse, før jeg gikk videre til IT og informasjonssystemer. Denne kombinasjonen gjør jeg er særlig interessert i prosjektledelse og effektiv kommunikasjon. 
-    Som standansvarlig i styret til NITO Studentene Agder har jeg koordinert standaktiviteter, bidratt til målrettet verving av nye medlemmer og representert organisasjonen på landsmøtet. I høst har jeg også praksis-prosjekt hos Digin.
-    På fritiden er jeg skribent for et nettmagasin, hvor jeg anmelder konserter og plater. Ellers er jeg glad i spille dataspill, reise og engasjere meg i Formel 1.`,
-    skills: ["C#", "CSS"],
-    email: "adrian.oien@student.uib.no",
-    linkedin: "https://www.linkedin.com/in/adrian-%C3%B8ien/",
+    role: "Prosjekteder & Scrum Master",
+    bio: `Jeg er 27 år og kommer fra Kristiansand. Med en bachelor i Markedsføring og Ledelse kombinert med videre studier i IT og informasjonssystemer, har jeg utviklet en tverrfaglig kompetanse som gjør meg spesielt interessert i prosjektledelse, teknologi og effektiv kommunikasjon.
+    Som standansvarlig i styret til NITO Studentene Agder har jeg koordinert aktiviteter, fulgt opp verving og representert organisasjonen på landsmøtet. Denne erfaringen har styrket mine ferdigheter innen organisering, samarbeid og relasjonsbygging. På fritiden er jeg skribent for et nettmagasin, hvor jeg anmelder konserter og plater. Dette har vært både morro og lærerikt da det har gitt meg erfaring med skriftlig formidling og analytisk tenkning.`,
+    experience: `Jeg har erfaring med utvikling av webapplikasjoner i C# og .NET gjennom prosjekter som blant annet omfattet en løsning for Kartverket og et GIS-prosjekt med klimadata. Nå er jeg i praksis hos Digin, hvor jeg jobber med en webapplikasjon for kompetansekartlegging.`,
+    skills: ["Ledelse", "C#/.NET", "CSS", "Design", "Machine Learning"],
+    email: "avoien17@uia.no",
+    linkedin: "https://www.linkedin.com/in/adrian-oien/",
     github: "https://github.com/adrianoien",
     portfolio: "https://adrian-dev.com"
   },
