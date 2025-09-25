@@ -6,7 +6,7 @@ export const members = [
     slug: "jesper",
     role: "Full Stack Utvikler",
     bio: `Hei, jeg er 24 år og kommer fra Sarpsborg. Jeg har en sterk lidenskap for teknologi og elsker å utforske nye måter å gjøre ting på. 
-    Jeg er glad i å drive egne små projekter på fritiden som å lage apper eller små spill. På bildet kan dere se meg i en japansk yukata. 
+    Jeg er glad i å drive egne små projekter på fritiden som å lage apper eller små spill. 
     Jeg er veldig glad i å lære språk og lære om nye kulturer. Jeg gikk tidligere på japanske studier ved UiO. 
     Jeg liker også å engasjere meg i viktige saker på fritiden. Jeg er verv i Nito student styret og står ofte på stands for å verve nye medlemmer.`,
     experience: `Tidligere jobb erfaring har jeg jobbet på Rema 1000 og Care1 (Apple verksted) så jeg har god erfaring med kunder. For tiden jobber jeg også hos Sikri i praksis. 
