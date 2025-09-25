@@ -54,7 +54,7 @@ export const members = [
     Geografiske Informasjonssystemer,AI og IOT; introduksjon og anvendelse
     Algorithms and Data Structures`,
     image: "/gruppeside/images/liv.jpeg",
-    skills: ["Figma", "CSS", "Design"],
+    skills: ["C#", "Figma", "CSS", "Design"],
     email: "liv.staaland@student.uib.no",
     linkedin: "http://www.linkedin.com/in/liv-gudrun-staaland-a4517a321",
     github: "https://github.com/livgs",
