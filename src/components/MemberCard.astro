@@ -6,7 +6,6 @@ export interface Props {
     slug: string;
     role: string;
     bio: string;
-    image: string;
     skills: string[];
     email?: string;
     linkedin?: string;
@@ -25,7 +24,7 @@ const memberUrl = `/gruppeside/${member.slug}`;
   <a href={memberUrl} class="member-card-link">
     <div class="member-image">
       <img 
-        src={member.image} 
+        src=`/gruppeside/images/${member.slug}.jpeg` 
         alt={member.name}
         loading="lazy"
       />
