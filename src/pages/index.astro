@@ -23,21 +23,18 @@ const membersLink = isDev ? '/members' : '/gruppeside/members';
 			<div class="container">
 				<div class="about-content">
 					<div class="about-column">
-						<img src="/gruppeside/icons/book-open.svg"/>
 						<h3>Vår Bakgrunn</h3>
 						<p>
 							Vi vil beskrive oss selv som en mangfoldig gruppe av ulike aldere og bakgrunner. Vi samarbeider godt og alle har forskjellige ferdigheter å bidra med.
 						</p>
 					</div>
 					<div class="about-column">
-						<img src="/gruppeside/icons/medal.svg"/>
 						<h3>Vår Erfaring</h3>
 						<p>
 							Vi har tidligere samarbeidet på flere prosjekter i løpet av studietiden. Vi ønsker et prosjekt som passer våres styrker og erfaringer, og er interessert i bedrifter med et godt arbeidsmiljø.
 						</p>
 					</div>
 					<div class="about-column">
-						<img src="/gruppeside/icons/rocket-launch.svg"/>
 						<h3>Våre Mål</h3>
 						<p>
 							Som gruppe er vi enige om å sikte høyt, og gjøre en innsats for å få en god karakter og levere ett bra prosjekt. Vi ser på dette som en sjanse til å knytte kontakter og utforske muligheter.
@@ -63,7 +60,7 @@ const membersLink = isDev ? '/members' : '/gruppeside/members';
 				<h2>./Vårt Team</h2>
 				<div class="members-grid">
 					{members.map(member => (
-						<MemberCard member={member} />
+						<MemberCard {member} />
 					))}
 				</div>
 			</div>
