@@ -186,38 +186,6 @@ main {
 	background: white;
 }
 
-.back-button {
-	display: inline-flex;
-	align-items: center;
-	gap: 0.5rem;
-	color: #6b7280;
-	text-decoration: none;
-	font-weight: 500;
-	font-size: 1rem;
-	padding: 0.75rem 1rem;
-	border-radius: 10px;
-	background: #f9fafb;
-	border: 1px solid #e5e7eb;
-	transition: all 0.2s ease;
-	margin-bottom: 2rem;
-}
-
-.back-button:hover {
-	background: #f3f4f6;
-	color: #374151;
-	transform: translateX(-2px);
-	border-color: #d1d5db;
-}
-
-.back-button svg {
-	transition: transform 0.2s ease;
-}
-
-.back-button:hover svg {
-	transform: translateX(-2px);
-}
-
-
 .member-detail-container {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
