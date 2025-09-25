@@ -268,7 +268,8 @@ main {
 
 .member-profile-image {
 	width: 100%;
-	max-width: 300px;
+	max-width: 600px; /* Økt fra 1000px */
+	height: auto;
 	border-radius: 20px;
 	box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
 	margin-bottom: 2rem;
