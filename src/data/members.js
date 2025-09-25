@@ -8,9 +8,11 @@ export const members = [
     bio: `Hei, jeg er 24 år og kommer fra Sarpsborg. Jeg har en sterk lidenskap for teknologi og elsker å utforske nye måter å gjøre ting på. 
     Jeg er glad i å drive egne små projekter på fritiden som å lage apper eller små spill. På bildet kan dere se meg i en japansk yukata. 
     Jeg er veldig glad i å lære språk og lære om nye kulturer. Jeg gikk tidligere på japanske studier ved UiO. 
-    Jeg liker også å engasjere meg i viktige saker på fritiden. Jeg er verv i Nito student styret og står ofte på stands for å verve nye medlemmer. 
-    Tidligere jobb erfaring har jeg jobbet på Rema 1000 og Care1 (Apple verksted) så jeg har god erfaring med kunder. For tiden jobber jeg også hos Sikri i praksis.`,
-    experience: `Jeg har erfaring med utvikling av webapplikasjoner ved bruk av moderne rammeverk som React. Jeg har også jobbet mye med backend-utvikling ved bruk av C#, .NET og Node.js. I tillegg har jeg erfaring med Python for automatiseringer.`,
+    Jeg liker også å engasjere meg i viktige saker på fritiden. Jeg er verv i Nito student styret og står ofte på stands for å verve nye medlemmer.`,
+    experience: `Tidligere jobb erfaring har jeg jobbet på Rema 1000 og Care1 (Apple verksted) så jeg har god erfaring med kunder. For tiden jobber jeg også hos Sikri i praksis. 
+    Jeg har erfaring med utvikling av webapplikasjoner ved bruk av moderne rammeverk som React.
+    Jeg har også jobbet mye med backend-utvikling ved bruk av C#, .NET og Node.js. I tillegg har jeg erfaring med Python for automatiseringer.
+     `,
     image: "/gruppeside/images/jesper.jpeg",
     skills: ["C#/.NET", "Python", "JS/Node.js", "Java", "React"],
     email: "jesper.hansen@student.uib.no",
@@ -45,6 +47,12 @@ export const members = [
     Gjennom studiet har jeg vært innom blant annet Java, databaser, GIS, algoritmer og Python.
     Jeg er interessert i frontend og liker å jobbe med prosjekt og design, og syns datasikkerhet er interessant. 
     Jeg liker å lære nye ting, og er veldig fleksibel. Jeg har erfaring innen kundeservice og har hatt en rekke varierte jobber, blant annet på restaurant, i barnehage og som omviser.`,
+    experience: `Jeg har jobbet på flere gruppeprosjekter der vi har utviklet webapplikasjoner ved bruk av C# og .NET. Der jeg har jobbet mest med frontend og design med CSS, HTML og Figma. Et av prosjektene våre gikk ut på å registrere feilmeldinger i kartet for Kartverket, og så har vi laget et GIS prosjekt der vi brukte geografiske data for å identifisere egnede områder for bygging med hensyn til klimautfordringer og naturfarer.
+    Nå jobber jeg med et praksisprosjekt der vi lager en webapplikasjon for å samle informasjon om kompetansen til medlemsbedriftene deres, der vi bruker .NET, C# og databaser.
+    Valgfag:
+    Information Systems Security
+    Geografiske Informasjonssystemer,AI og IOT; introduksjon og anvendelse
+    Algorithms and Data Structures`,
     image: "/gruppeside/images/liv.jpeg",
     skills: ["Figma", "CSS", "Design"],
     email: "liv.staaland@student.uib.no",
