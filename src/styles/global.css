@@ -22,25 +22,26 @@ main {
 /* Hero section */
 .hero {
 	position: relative;
-	color: white;
-	padding: 4rem 0;
-	text-align: center;
-	min-height: 60vh;
+	width: 100%;
 	overflow: hidden;
+	padding: 0;
+	height: 60vh;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	color: white;
+	align-items: center; /* vertically center content */
+	justify-content: center; /* horizontally center content */
 }
 
 .hero-video {
 	position: absolute;
 	top: 0;
 	left: 0;
+	right: 0;
+	bottom: 0;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	object-position: center;
-	z-index: 1;
+	z-index: 0;
 }
 
 .hero::before {
@@ -50,16 +51,34 @@ main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(135deg, rgba(102, 126, 234, 0.4) 0%, rgba(118, 75, 162, 0.4) 100%);
-	z-index: 2;
+	background: rgba(102, 81, 202, 0.35);
+	pointer-events: none; /* allow clicks through to controls/links if needed */
+	z-index: 1;
 }
 
 .hero-content {
 	position: relative;
-	z-index: 3;
+	z-index: 2;
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 0 2rem;
+	text-align: center; /* ensure text is centered inside */
+}
+
+.hero-video {
+	background: transparent;
+}
+
+.hero-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.hero-content img {
+    max-width: 500px;
+    height: auto;
 }
 
 .hero h1 {
@@ -268,7 +287,8 @@ main {
 
 .member-profile-image {
 	width: 100%;
-	max-width: 300px;
+	max-width: 600px; /* Økt fra 1000px */
+	height: auto;
 	border-radius: 20px;
 	box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
 	margin-bottom: 2rem;
@@ -391,6 +411,46 @@ main {
 	margin: 0;
 }
 
+/* Business Section */
+.business-section {
+	padding: 4rem 0;
+	background: white;
+}
+
+.business-content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.business-column {
+	text-align: center;
+	padding: 2rem 1rem;
+	background: #f9fafb;
+	border-radius: 15px;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.business-column h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #1f2937;
+	margin: 0 0 1rem 0;
+	background: linear-gradient(83.21deg, #3245ff 0%, #bc52ee 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.business-column p {
+	font-size: 1.125rem;
+	line-height: 1.7;
+	color: #4b5563;
+	margin: 0;
+}
+
 /* Contact Section */
 .contact-section {
 	background: #f9fafb;
@@ -453,8 +513,13 @@ main {
 	}
 	
 	.hero {
-		min-height: 70vh;
-		padding: 2rem 0;
+		height: 40vh; /* shorter hero on mobile */
+		padding: 1.25rem 0; /* reduce vertical padding */
+	}
+
+	/* Mobile: smaller logo */
+	.hero-content img {
+		max-width: 280px;
 	}
 	
 	.members-section h2 {
