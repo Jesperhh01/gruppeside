@@ -5,6 +5,7 @@ export const members = [
     name: "Jesper Heidenberg Hansen",
     slug: "jesper",
     role: "Full Stack Utvikler",
+    bioimage: "/gruppeside/images/jesper2.jpg",
     bio: `Hei, jeg er 24 år og kommer fra Sarpsborg. Jeg har en sterk lidenskap for teknologi og elsker å utforske nye måter å gjøre ting på. 
     Jeg er glad i å drive egne små projekter på fritiden som å lage apper eller små spill. 
     Jeg er veldig glad i å lære språk og lære om nye kulturer. Jeg gikk tidligere på japanske studier ved UiO. 
@@ -25,6 +26,7 @@ export const members = [
     name: "Adrian van Mallinckrodt Øien",
     slug: "adrian",
     role: "Team Leder & Scrum Master",
+    bioimage: "/gruppeside/images/adrian2.jpg",
     bio: `Jeg er 27 år og kommer fra Kristiansand. 
     Jeg har en bachelor i Markedsføring og Ledelse, før jeg gikk videre til IT og informasjonssystemer. Denne kombinasjonen gjør jeg er særlig interessert i prosjektledelse og effektiv kommunikasjon. 
     Som standansvarlig i styret til NITO Studentene Agder har jeg koordinert standaktiviteter, bidratt til målrettet verving av nye medlemmer og representert organisasjonen på landsmøtet. I høst har jeg også praksis-prosjekt hos Digin.
@@ -40,6 +42,7 @@ export const members = [
     name: "Liv Gudrun Staaland",
     slug: "liv",
     role: "UI/UX Designer & Frontend Utvikler",
+    bioimage: "/gruppeside/images/liv2.jpg",
     bio: `Hei, jeg er en 22 år gammel student som kommer fra Vinje i Telemark.
     Tidligere har jeg tatt et årsstudium med engelsk på USN, Midt-Telemark.
     På fritiden sitter jeg i styret for NITO-studentene i Kristiansand som kursansvarlig, og har nylig startet med klatring.
@@ -64,6 +67,7 @@ export const members = [
     name: "Ole Hagberg",
     slug: "ole",
     role: "Full Stack Utvikler",
+    bioimage: "/gruppeside/images/ole2.jpg",
     bio: `Heisann, jeg stammer fra Nesodden i Akershus.
     Student ved UiA, tjenestegjort på fregatt og jobbet 2 år på SFO. 
     Jeg interesser meg mye for bil, racing, spill og utvikling. Glad i å reise innenlands og utenlands.
@@ -80,6 +84,7 @@ export const members = [
     name: "Camilla Uglem Remøy",
     slug: "camilla",
     role: "Database Administrator og Utvikler",
+    bioimage: "/gruppeside/images/camilla2.jpg",
     bio: `Hei, jeg er 24 år og kommer fra Kongsberg. 
     Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i back-end programming, hovedsakelig Python. 
     Jeg har også en sterk interesse for databaser og database-håndtering (MySQL og Postgres), datasikkerhet, og UX-design (Figma). På siden av studiene sitter jeg i styret til NITO-studentene Kristiansand. 
@@ -94,6 +99,7 @@ export const members = [
     id: 6,
     name: "Mathias Thorsell",
     slug: "mathias",
+    bioimage: "/gruppeside/images/mathias2.jpg",
     role: "Full Stack Utvikler",
     bio: `21 år, Sandnes
     Jeg er Mathias Thorsell og er student ved UiA, jeg har en stor interesse for teknologi og prosjekter.

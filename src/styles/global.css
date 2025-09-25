@@ -267,6 +267,30 @@ main {
 	background: #f3f4f6;
 	color: #3b82f6;
 }
+.member-hero {
+  background-image: url('/gruppeside/images/banner3.jpg');
+  background-size: cover;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Dark overlay for better text readability */
+.member-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.member-hero .hero-content {
+  position: relative;
+  z-index: 2;
+}
 
 .member-social-link.email:hover { color: #ef4444; }
 .member-social-link.linkedin:hover { color: #0077b5; }

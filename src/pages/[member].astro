@@ -14,7 +14,7 @@ const { member } = Astro.props;
 
 <Layout>
   <main>
-    <header class="hero">
+    <header class="hero member-hero">
       <div class="hero-content">
         <h1>{member.name}</h1>
         <p class="hero-subtitle">{member.role}</p>
@@ -47,12 +47,14 @@ const { member } = Astro.props;
           </div>
           
           <div class="member-image-container">
-            <img 
-              src=`/gruppeside/images/${member.slug}.jpeg` 
-              alt={member.name}
-              class="member-profile-image"
-              loading="lazy"
-            />
+            {member.bioimage && (
+              <img 
+                src={member.bioimage}
+                alt={member.name}
+                class="member-profile-image"
+                loading="lazy"
+              />
+            )}
             
             <div class="member-social-links">
               {member.email && (
