@@ -95,10 +95,13 @@ export const members = [
     name: "Mathias Thorsell",
     slug: "mathias",
     role: "Full Stack Utvikler",
-    bio: `21 år, Sandnes
-    Jeg er Mathias Thorsell og er student ved UiA, jeg har en stor interesse for teknologi og prosjekter.
-    Jeg liker å arbeide med fullstack og språkene jeg liker best er Python, C# og Java
-    Jeg er svært fleksibel og gleder meg til nye utfordringer. I fritiden liker jeg å spille, tegne og jobbe med mini-prosjekter.`,
+    bio: `Jeg er Mathias Thorsell (21) fra Sandnes, student ved Universitetet i Agder med en sterk interesse for teknologi og utvikling.
+    Jeg har erfaring innen fullstack-utvikling, med hovedfokus på Python, C# og Java, samt kompetanse i JavaScript og maskinlæring.`,
+
+    experience: `For tiden har jeg praksis hos Mandalselva Elveigarlag, hvor jeg arbeider med maskinlæring og datadrevne løsninger. 
+    Jeg er en fleksibel utvikler som trives med å lære nye teknologier og ta på meg utfordrende prosjekter. 
+    På fritiden liker jeg å spille, tegne og utvikle egne mini-prosjekter.`,
+    image: "/gruppeside/images/mathias.jpeg",
     skills: ["Python", "C#", "Java", "JavaScript", "Machine Learning", "UX Design"],
     email: "mathiastho@uia.no",
     linkedin: "https://www.linkedin.com/in/mathias-thorsell-85a248237/",
