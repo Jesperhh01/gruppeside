@@ -83,14 +83,14 @@ export const members = [
     id: 5,
     name: "Camilla Uglem Remøy",
     slug: "camilla",
-    role: "Database Administrator og Utvikler",
+    role: "Database-Administrator og Utvikler",
     bioimage: "/gruppeside/images/camilla2.jpg",
-    bio: `Hei, jeg er 24 år og kommer fra Kongsberg. 
-    Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i back-end programming, hovedsakelig Python. 
-    Jeg har også en sterk interesse for databaser og database-håndtering (MySQL og Postgres), datasikkerhet, og UX-design (Figma). På siden av studiene sitter jeg i styret til NITO-studentene Kristiansand. 
-    På fritiden liker jeg å holde meg aktivt ved å trene styrke og løpe. God musikk og fjellturer gir meg ro i sjela.`,
+    bio: `Hei, jeg er 24 år og kommer fra Kongsberg. Tidligere har jeg gått på folkehøgskole og gikk helselinjen der, og studert sykepleie ved NTNU i Gjøvik 1 år, før jeg bestemte meg for å heller studere IT. 
+    På fritiden liker jeg å holde meg aktivt ved å trene styrke og løpe. Jeg er også veldig glad i å lytte til musikk, fjellturer og klatring. Jeg har tidligere engasjert meg i styret til NITO-studentene Kristiansand. For tiden er jeg i praksis hos Digin.`,
+    experience: `Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i backend-programmering, hovedsakelig Python. 
+    Jeg har også en sterk interesse for databaser og database-håndtering, datasikkerhet, og UX-design.`,
     skills: ["HTML", "CSS", "Python", "Figma", "PostgreSQL", "MySQL"],
-    email: "camilla.remoy@student.uib.no",
+    email: "camillaur@uia.no",
     linkedin: "http://www.linkedin.com/in/camilla-uglem-rem%C3%B8y-462599229",
     github: "https://github.com/camillaur",
     portfolio: "https://camilla-portfolio.com"
@@ -101,10 +101,13 @@ export const members = [
     slug: "mathias",
     bioimage: "/gruppeside/images/mathias2.jpg",
     role: "Full Stack Utvikler",
-    bio: `21 år, Sandnes
-    Jeg er Mathias Thorsell og er student ved UiA, jeg har en stor interesse for teknologi og prosjekter.
-    Jeg liker å arbeide med fullstack og språkene jeg liker best er Python, C# og Java
-    Jeg er svært fleksibel og gleder meg til nye utfordringer. I fritiden liker jeg å spille, tegne og jobbe med mini-prosjekter.`,
+    bio: `Jeg er Mathias Thorsell (21) fra Sandnes, student ved Universitetet i Agder med en sterk interesse for teknologi og utvikling.
+    Jeg har erfaring innen fullstack-utvikling, med hovedfokus på Python, C# og Java, samt kompetanse i JavaScript og maskinlæring.`,
+
+    experience: `For tiden har jeg praksis hos Mandalselva Elveigarlag, hvor jeg arbeider med maskinlæring og datadrevne løsninger. 
+    Jeg er en fleksibel utvikler som trives med å lære nye teknologier og ta på meg utfordrende prosjekter. 
+    På fritiden liker jeg å spille, tegne og utvikle egne mini-prosjekter.`,
+    image: "/gruppeside/images/mathias.jpeg",
     skills: ["Python", "C#", "Java", "JavaScript", "Machine Learning", "UX Design"],
     email: "mathiastho@uia.no",
     linkedin: "https://www.linkedin.com/in/mathias-thorsell-85a248237/",
