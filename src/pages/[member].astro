@@ -41,7 +41,7 @@ const { member } = Astro.props;
           
           <div class="member-image-container">
             <img 
-              src={member.image} 
+              src=`/gruppeside/images/${member.slug}.jpeg` 
               alt={member.name}
               class="member-profile-image"
               loading="lazy"
