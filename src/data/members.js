@@ -79,13 +79,13 @@ export const members = [
     id: 5,
     name: "Camilla Uglem Remøy",
     slug: "camilla",
-    role: "Database Administrator og Utvikler",
-    bio: `Hei, jeg er 24 år og kommer fra Kongsberg. 
-    Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i back-end programming, hovedsakelig Python. 
-    Jeg har også en sterk interesse for databaser og database-håndtering (MySQL og Postgres), datasikkerhet, og UX-design (Figma). På siden av studiene sitter jeg i styret til NITO-studentene Kristiansand. 
-    På fritiden liker jeg å holde meg aktivt ved å trene styrke og løpe. God musikk og fjellturer gir meg ro i sjela.`,
+    role: "Database-Administrator og Utvikler",
+    bio: `Hei, jeg er 24 år og kommer fra Kongsberg. Tidligere har jeg gått på folkehøgskole og gikk helselinjen der, og studert sykepleie ved NTNU i Gjøvik 1 år, før jeg bestemte meg for å heller studere IT. 
+    På fritiden liker jeg å holde meg aktivt ved å trene styrke og løpe. Jeg er også veldig glad i å lytte til musikk, fjellturer og klatring. Jeg har tidligere engasjert meg i styret til NITO-studentene Kristiansand. For tiden er jeg i praksis hos Digin.`,
+    experience: `Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i backend-programmering, hovedsakelig Python. 
+    Jeg har også en sterk interesse for databaser og database-håndtering, datasikkerhet, og UX-design.`,
     skills: ["HTML", "CSS", "Python", "Figma", "PostgreSQL", "MySQL"],
-    email: "camilla.remoy@student.uib.no",
+    email: "camillaur@uia.no",
     linkedin: "http://www.linkedin.com/in/camilla-uglem-rem%C3%B8y-462599229",
     github: "https://github.com/camillaur",
     portfolio: "https://camilla-portfolio.com"
