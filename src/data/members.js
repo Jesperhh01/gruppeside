@@ -13,7 +13,7 @@ export const members = [
     Jeg har erfaring med utvikling av webapplikasjoner ved bruk av moderne rammeverk som React.
     Jeg har også jobbet mye med backend-utvikling ved bruk av C#, .NET og Node.js. I tillegg har jeg erfaring med Python for automatiseringer.
      `,
-    experience: `Jeg har erfaring med utvikling av webapplikasjoner ved bruk av moderne rammeverk som React. Jeg har også jobbet mye med backend-utvikling ved bruk av C#, .NET og Node.js. I tillegg har jeg erfaring med Python for automatiseringer.`,
+    image: "/gruppeside/images/jesper.jpeg",
     skills: ["C#/.NET", "Python", "JS/Node.js", "Java", "React"],
     email: "jesper.hansen@student.uib.no",
     linkedin: "https://www.linkedin.com/in/jesper-heidenberg-hansen-28069a35b/",
@@ -29,6 +29,7 @@ export const members = [
     Jeg har en bachelor i Markedsføring og Ledelse, før jeg gikk videre til IT og informasjonssystemer. Denne kombinasjonen gjør jeg er særlig interessert i prosjektledelse og effektiv kommunikasjon. 
     Som standansvarlig i styret til NITO Studentene Agder har jeg koordinert standaktiviteter, bidratt til målrettet verving av nye medlemmer og representert organisasjonen på landsmøtet. I høst har jeg også praksis-prosjekt hos Digin.
     På fritiden er jeg skribent for et nettmagasin, hvor jeg anmelder konserter og plater. Ellers er jeg glad i spille dataspill, reise og engasjere meg i Formel 1.`,
+    image: "/gruppeside/images/adrian.jpeg",
     skills: ["C#", "CSS"],
     email: "adrian.oien@student.uib.no",
     linkedin: "https://www.linkedin.com/in/adrian-%C3%B8ien/",
@@ -67,13 +68,13 @@ export const members = [
     bio: `Heisann, jeg stammer fra Nesodden i Akershus.
     Student ved UiA, tjenestegjort på fregatt og jobbet 2 år på SFO. 
     Jeg interesser meg mye for bil, racing, spill og utvikling. Glad i å reise innenlands og utenlands.
-    Som person er jeg lett å jobbe med, jeg jobber gjerne med hva som helst, liker aller best back-end. Språklig har jeg jobbet mye med TypeScript, C#, Java og rammeverk som SvelteKit, Prisma, Express.js.`,
-    experience: "Har jobbet mye med Node.js, bun.sh og Deno baserte applikasjoner. Har mye linux sysadmin erfaring fra Debian baserte systemer som kjører skytjenester.",
-    skills: ["C#", "TypeScript", "Java", "SvelteKit", "Prisma", "Express.js", "PHP", "Bun.sh", "MariaDB", "PostgreSQL"],
+    Som person er jeg lett å jobbe med og jeg kan jobbe med hva som helst, men jeg liker best back-end. Språklig har jeg jobbet mye med TypeScript, C#, Java og rammeverk som SvelteKit, Prisma, Express.js.`,
+    image: "/gruppeside/images/ole.jpeg",
+    skills: ["C#", "TypeScript", "Java", "SvelteKit", "Prisma", "Express.js"],
     email: "ole.hagberg@student.uib.no",
     linkedin: "https://www.linkedin.com/in/ole-hagberg-6024bb381/",
     github: "https://github.com/CataDev0",
-    portfolio: "https://cata.moe"
+    portfolio: "https://ole-data.com"
   },
   {
     id: 5,
@@ -84,6 +85,7 @@ export const members = [
     Front-end-interessen min startet allerede på VGS der jeg lagde forskjellige nettsider på fritiden, men i løpet av studiet har jeg også fått mer innsikt i back-end programming, hovedsakelig Python. 
     Jeg har også en sterk interesse for databaser og database-håndtering (MySQL og Postgres), datasikkerhet, og UX-design (Figma). På siden av studiene sitter jeg i styret til NITO-studentene Kristiansand. 
     På fritiden liker jeg å holde meg aktivt ved å trene styrke og løpe. God musikk og fjellturer gir meg ro i sjela.`,
+    image: "/gruppeside/images/camilla.jpeg",
     skills: ["HTML", "CSS", "Python", "Figma", "PostgreSQL", "MySQL"],
     email: "camilla.remoy@student.uib.no",
     linkedin: "http://www.linkedin.com/in/camilla-uglem-rem%C3%B8y-462599229",
@@ -99,6 +101,7 @@ export const members = [
     Jeg er Mathias Thorsell og er student ved UiA, jeg har en stor interesse for teknologi og prosjekter.
     Jeg liker å arbeide med fullstack og språkene jeg liker best er Python, C# og Java
     Jeg er svært fleksibel og gleder meg til nye utfordringer. I fritiden liker jeg å spille, tegne og jobbe med mini-prosjekter.`,
+    image: "/gruppeside/images/mathias.jpeg",
     skills: ["Python", "C#", "Java", "JavaScript", "Machine Learning", "UX Design"],
     email: "mathiastho@uia.no",
     linkedin: "https://www.linkedin.com/in/mathias-thorsell-85a248237/",
