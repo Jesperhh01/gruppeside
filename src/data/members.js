@@ -67,13 +67,13 @@ export const members = [
     slug: "ole",
     role: "Full Stack Utvikler",
     bioimage: "/gruppeside/images/ole2.jpg",
-    bio: `Heisann, jeg stammer fra Nesodden i Akershus.
-    Student ved UiA, tjenestegjort på fregatt og jobbet 2 år på SFO. 
-    Jeg interesser meg mye for bil, racing, spill og utvikling. Glad i å reise innenlands og utenlands.
-    Som person er jeg lett å jobbe med, jeg jobber gjerne med hva som helst, liker aller best back-end. Språklig har jeg jobbet mye med TypeScript, C#, Java og rammeverk som SvelteKit, Prisma, Express.js.`,
-    experience: "Har jobbet mye med Node.js, bun.sh og Deno baserte applikasjoner. Har mye linux sysadmin erfaring fra Debian baserte systemer som kjører skytjenester.",
+    bio: `Heisann, jeg vokste opp på Nesodden og er student ved UiA, har tjenestegjort på fregatt og jobbet 2 år på SFO. 
+    Jeg har en sterk interesse for bil, racing, spill og programvareutvikling. I tillegg trives jeg med å reise nye steder, både i Norge og internasjonalt.
+    Som person er jeg samarbeidsvillig, fleksibel og løsningsorientert. Jeg tar gjerne fatt på varierte oppgaver, men har en særlig interesse for back-end-utvikling.
+    Jeg har omfattende erfaring med språk som TypeScript, C# og Java, samt rammeverk og verktøy som SvelteKit, Prisma og Express.js.`,
+    experience: "Har jobbet mye med Node.js, bun.sh og Deno baserte applikasjoner. Har mye linux sysadmin erfaring fra Debian baserte systemer som kjører forskjellige skytjenester.",
     skills: ["C#", "TypeScript", "Java", "SvelteKit", "Prisma", "Express.js", "PHP", "Bun.sh", "MariaDB", "PostgreSQL"],
-    email: "ole.hagberg@student.uib.no",
+    email: "omhagberg@uia.no",
     linkedin: "https://www.linkedin.com/in/ole-hagberg-6024bb381/",
     github: "https://github.com/CataDev0",
     portfolio: "https://cata.moe"
