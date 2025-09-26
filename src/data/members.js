@@ -56,7 +56,7 @@ export const members = [
     Algorithms and Data Structures`,
     image: "/gruppeside/images/liv.jpeg",
     skills: ["C#", "Figma", "CSS", "Design"],
-    email: "liv.staaland@student.uib.no",
+    email: "livgs@uia.no",
     linkedin: "http://www.linkedin.com/in/liv-gudrun-staaland-a4517a321",
     github: "https://github.com/livgs",
     portfolio: "https://liv-designs.com"
