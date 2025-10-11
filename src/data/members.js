@@ -25,7 +25,7 @@ export const members = [
     id: 2,
     name: "Adrian van Mallinckrodt Øien",
     slug: "adrian",
-    role: "Prosjekteder & Scrum Master",
+    role: "Prosjektleder & Scrum Master",
     bioimage: "/gruppeside/images/adrian2.jpg",
     bio: `Jeg er 27 år og kommer fra Kristiansand. Med en bachelor i Markedsføring og Ledelse kombinert med videre studier i IT og informasjonssystemer, har jeg utviklet en tverrfaglig kompetanse som gjør meg spesielt interessert i prosjektledelse, teknologi og effektiv kommunikasjon.
     Som standansvarlig i styret til NITO Studentene Agder har jeg koordinert aktiviteter, fulgt opp verving og representert organisasjonen på landsmøtet. Denne erfaringen har styrket mine ferdigheter innen organisering, samarbeid og relasjonsbygging. På fritiden er jeg skribent for et nettmagasin, hvor jeg anmelder konserter og plater. Dette har vært både morro og lærerikt da det har gitt meg erfaring med skriftlig formidling og analytisk tenkning.`,
