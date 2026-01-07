@@ -1,4 +1,7 @@
 /* Global styles for Bachelor Group Portfolio */
+@import "tailwindcss";
+
+
 
 /* Global font family and box-sizing */
 * {
@@ -134,24 +137,7 @@ main {
 }
 
 /* CTA Button */
-.cta-button {
-	display: inline-block;
-	background: linear-gradient(83.21deg, #3245ff 0%, #bc52ee 100%);
-	color: white;
-	padding: 12px 24px;
-	border-radius: 10px;
-	text-decoration: none;
-	font-weight: 600;
-	margin-top: 1.5rem;
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12), inset 0 -2px 0 rgba(0, 0, 0, 0.24);
-	transition: all 0.2s ease;
-}
 
-.cta-button:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(50, 69, 255, 0.4);
-	color: rgb(230, 230, 230);
-}
 
 .back-button {
     display: inline-flex;
