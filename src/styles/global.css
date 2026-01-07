@@ -1,8 +1,6 @@
 /* Global styles for Bachelor Group Portfolio */
 @import "tailwindcss";
 
-
-
 /* Global font family and box-sizing */
 * {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -589,4 +587,8 @@ main {
 	.contact-item a {
 		font-size: 1.1rem;
 	}
+}
+
+img[src*="/gruppeside/"] {
+    display: inline;
 }

@@ -1,129 +1,138 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import MemberCard from '../components/MemberCard.astro';
-import { members } from '../data/members.js';
+import {members} from '../data/members.js';
 
 const isDev = import.meta.env.DEV;
 const membersLink = isDev ? '/members' : '/gruppeside/members';
 ---
 
 <Layout>
-	<main>
-		<header class="hero">
-			<video class="hero-video" autoplay muted loop playsinline>
-				<source src="/gruppeside/videos/hero-video.mp4" type="video/mp4">
-			</video>
-			<div class="hero-content">
-				<img src="/gruppeside/logo.svg"/>
-				<p class="hero-subtitle">Gruppe 12 er et mangfoldig team av utviklere og designere.</p>
-			</div>
-		</header>
-		
-		<section class="about-section">
-            <div class="text-center text-xl mb-8">
-                                <a href="/gruppeside/øyeblikksbilde" class="inline-block bg-[linear-gradient(83.21deg,_#3245ff_0%,_#bc52ee_100%)] text-white py-3 px-6 rounded-lg font-semibold mt-6 shadow-md transition-all duration-200 ease-in-out hover:translate-y-[-2px] hover:shadow-lg hover:text-gray-200">Våre tanker om Bachelorprosjektet</a>
+    <main>
+        <header class="hero">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="/gruppeside/videos/hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <img src="/gruppeside/logo.svg"/>
+                <p class="hero-subtitle">Gruppe 12 er et mangfoldig team av utviklere og designere.</p>
             </div>
-			<div class="container">
-				<div class="about-content">
-					<div class="about-column">
-						<img src="/gruppeside/icons/book-open.svg"/>
-						<h3>Vår Bakgrunn</h3>
-						<p>
-							Vi er en mangfoldig gruppe av ulike aldere, faglige bakgrunner, og perspektiver. Denne variasjonen gir oss en bred kompetanse og evnen til å tilpasse oss ulike situasjoner. Vi jobber godt sammen som team og drar nytte av hverandres styrker for å oppnå gode resultater.
-						</p>
-					</div>
-					<div class="about-column">
-						<img src="/gruppeside/icons/medal.svg"/>
-						<h3>Vår Erfaring</h3>
-						<p>
-							Gjennom studietiden har vi samarbeidet på flere prosjekter, som har gitt oss både praktisk erfaring og et godt grunnlag for å løse reelle problemstillinger. Vi ønsker nå å ta dette videre gjennom et samarbeid med en bedrift som kan gi oss et spennende og relevant prosjekt.
-						</p>
-					</div>
-					<div class="about-column">
-						<img src="/gruppeside/icons/rocket-launch.svg"/>
-						<h3>Våre Mål</h3>
-						<p>
-							Vi har høye ambisjoner og ønsker å levere et solid og verdifullt prosjekt med høy kvalitet. For oss handler dette om lære og vokse, både som individer og som et team, og å skape noe med reell verdi for en samarbeidspartner. Vi ser på dette som en unik mulighet til å bygge nettverk og lære av bransjen.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+        </header>
 
-		<section class="about-section">
-			<div class="container">
-				<div class="about-content">
-					<div class="about-column">
-						<img src="/gruppeside/icons/buildings.svg"/>
-						<h3>Privat Sektor</h3>
-						<p>
-							Vi bygger løsninger som virkelig merkes: raske prototyper, klare mål og fokus på
-    ytelse og skalerbarhet. Teamet vårt kombinerer moderne teknologier med en smidig
-    arbeidsform, og leverer ekte resultater som får produktet raskt ut i markedet.
-						</p>
-					</div>
-					<div class="about-column">
-						<img src="/gruppeside/icons/bank.svg"/>
-						<h3>Offentlig Sektor</h3>
-						<p>
-							 Vi forstår krav til personvern, sikkerhet og universell utforming. Løsningene våre er
-    fleksible, dokumenterte og vedlikeholdsvennlige. Nemlig bygget for langsiktig drift og gode
-    brukeropplevelser for alle innbyggere.
-						</p>
-					</div>
-					<div class="about-column">
-						<img src="/gruppeside/icons/headset.svg"/>
-						<h3>Konsulentselskaper</h3>
-						<p>
-	Vi glir rett inn i Konsulentbransjen, leverer høy gjennomføringsevne, ren kode og tydelig kommunikasjon mot kunde.
-	 Vi tar ansvar og dokumenterer prosessen vår så det er enkelt å overta. 
-	Skaler oss opp og ned etter behov, helt uten friksjon.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="about-section">
+            <div class="text-center text-xl mb-8">
+                <a href="/gruppeside/øyeblikksbilde"
+                   class="inline-block bg-[linear-gradient(83.21deg,_#3245ff_0%,_#bc52ee_100%)] text-white py-3 px-6 rounded-lg font-semibold mt-6 shadow-md transition-all duration-200 ease-in-out hover:translate-y-[-2px] hover:shadow-lg hover:text-gray-200">Våre
+                    tanker om Bachelorprosjektet</a>
+            </div>
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-column">
+                        <img src="/gruppeside/icons/book-open.svg"/>
+                        <h3>Vår Bakgrunn</h3>
+                        <p>
+                            Vi er en mangfoldig gruppe av ulike aldere, faglige bakgrunner, og perspektiver. Denne
+                            variasjonen gir oss en bred kompetanse og evnen til å tilpasse oss ulike situasjoner. Vi
+                            jobber godt sammen som team og drar nytte av hverandres styrker for å oppnå gode resultater.
+                        </p>
+                    </div>
+                    <div class="about-column">
+                        <img src="/gruppeside/icons/medal.svg"/>
+                        <h3>Vår Erfaring</h3>
+                        <p>
+                            Gjennom studietiden har vi samarbeidet på flere prosjekter, som har gitt oss både praktisk
+                            erfaring og et godt grunnlag for å løse reelle problemstillinger. Vi ønsker nå å ta dette
+                            videre gjennom et samarbeid med en bedrift som kan gi oss et spennende og relevant prosjekt.
+                        </p>
+                    </div>
+                    <div class="about-column">
+                        <img src="/gruppeside/icons/rocket-launch.svg"/>
+                        <h3>Våre Mål</h3>
+                        <p>
+                            Vi har høye ambisjoner og ønsker å levere et solid og verdifullt prosjekt med høy kvalitet.
+                            For oss handler dette om lære og vokse, både som individer og som et team, og å skape noe
+                            med reell verdi for en samarbeidspartner. Vi ser på dette som en unik mulighet til å bygge
+                            nettverk og lære av bransjen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		
-		
-		<div class="container">
-			<section class="banner">
-				<img src="/gruppeside/images/banner1.jpeg" alt="Teamwork Illustration" />
-				<div class="banner-content">
-					<h2>Møt vårt team</h2>
-					<p>Her er medlemmene av Gruppe 12</p>
-				</div>
-			</section>
-		</div>
-		
-		<section class="members-section">
-			<div class="container">
-				<h2>./Vårt Team</h2>
-				<div class="members-grid">
-					{members.map(member => (
-						<MemberCard {member} />
-					))}
-				</div>
-			</div>
-		</section>
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-column">
+                        <img src="/gruppeside/icons/buildings.svg"/>
+                        <h3>Privat Sektor</h3>
+                        <p>
+                            Vi bygger løsninger som virkelig merkes: raske prototyper, klare mål og fokus på
+                            ytelse og skalerbarhet. Teamet vårt kombinerer moderne teknologier med en smidig
+                            arbeidsform, og leverer ekte resultater som får produktet raskt ut i markedet.
+                        </p>
+                    </div>
+                    <div class="about-column">
+                        <img src="/gruppeside/icons/bank.svg"/>
+                        <h3>Offentlig Sektor</h3>
+                        <p>
+                            Vi forstår krav til personvern, sikkerhet og universell utforming. Løsningene våre er
+                            fleksible, dokumenterte og vedlikeholdsvennlige. Nemlig bygget for langsiktig drift og gode
+                            brukeropplevelser for alle innbyggere.
+                        </p>
+                    </div>
+                    <div class="about-column">
+                        <img src="/gruppeside/icons/headset.svg"/>
+                        <h3>Konsulentselskaper</h3>
+                        <p>
+                            Vi glir rett inn i Konsulentbransjen, leverer høy gjennomføringsevne, ren kode og tydelig
+                            kommunikasjon mot kunde.
+                            Vi tar ansvar og dokumenterer prosessen vår så det er enkelt å overta.
+                            Skaler oss opp og ned etter behov, helt uten friksjon.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<footer class="contact-section">
-			<div class="container">
-				<div class="contact-content">
-					<div class="contact-info">
-				       <h2>Kontakt Oss</h2>
-				       <p>Er du interessert i å samarbeide med oss? Ta kontakt!</p>
-				       <div class="contact-item">
-                         <h3>E-post</h3>
-                         <a href="mailto:adrian.oien@live.no">adrian.oien@live.no</a>
-                       </div>
-					   <div class="contact-item">
-                         <h3>Telefon</h3>
-                         <a href="tel:+4791177008">+47 911 77 008</a>
-                       </div>
-			       </div>
-				</div>
-			</div>
-		</footer>
-	</main>
+
+        <div class="container">
+            <section class="banner">
+                <img src="/gruppeside/images/banner1.jpeg" alt="Teamwork Illustration"/>
+                <div class="banner-content">
+                    <h2>Møt vårt team</h2>
+                    <p>Her er medlemmene av Gruppe 12</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="members-section">
+            <div class="container">
+                <h2>./Vårt Team</h2>
+                <div class="members-grid">
+                    {members.map(member => (
+                            <MemberCard {member}/>
+                    ))}
+                </div>
+            </div>
+        </section>
+
+        <footer class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Kontakt Oss</h2>
+                        <p>Er du interessert i å samarbeide med oss? Ta kontakt!</p>
+                        <div class="contact-item">
+                            <h3>E-post</h3>
+                            <a href="mailto:adrian.oien@live.no">adrian.oien@live.no</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Telefon</h3>
+                            <a href="tel:+4791177008">+47 911 77 008</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
 </Layout>

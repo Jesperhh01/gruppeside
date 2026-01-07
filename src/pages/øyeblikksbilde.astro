@@ -1,68 +1,76 @@
 ---
-    import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro';
 ---
 <Layout>
     <main>
         <header class="hero">
+            <img class="hero-video" src="/gruppeside/images/banner4.webp" alt="Banner"/>
             <div class="hero-content">
                 <h2 class="hero-title">Øyeblikksbilde: Spørsmål og Svar</h2>
                 <p class="hero-subtitle">En oversikt over viktige spørsmål og svar for vårt prosjekt.</p>
             </div>
         </header>
         <section class="about-section">
-                    <div class="container">
-                        <div class="about-content">
-                            <div class="about-column">
-                                <img src="/gruppeside/icons/book-open.svg"/>
-                                <h3>Hva konkret er det vi skal utvikle, gjøre?</h3>
-                                <p>
-                                    Vi skal videutvikle et system fra Sikri. Elements er et system som gir innsikt i demokratiske 
-                                </p>
-                            </div>
-                            <div class="about-column">
-                                <img src="/gruppeside/icons/book-open.svg"/>
-                                <h3>Hva er viktige kvalitetsapekter i vårt produkt?</h3>
-                                <p>
-                                    Funksjonalitet, design og sikkerhet
-                                </p>
-                            </div>
-                            <div class="about-column">
-                                <img src="/gruppeside/icons/book-open.svg"/>
-                                <h3>Planer, backlogg, estimater, ressursbruk må vi ha oversikt over, kontroll på.</h3>
-                                <ul>
-                                    <li>Spørre brukergruppen</li>
-                                    <li>Kommunikasjon med Sikri om mangler</li>
-                                    <li>Måle etter features</li>
-                                    <li>Oppnå mål i sprints</li>
-                                    <li>Brukertester gjennom perioden</li>
-                                    <li>Iterere</li>
-                                    <li>Måle kvalitetaspekter innad i gruppen (code reviews)</li>
-                                    <li>Kvalitetsikre Backlog?
-                                        <ul>
-                                            <li>Estimere tid</li>
-                                            <li>Research</li>
-                                        </ul>
-                                    </li>
-                                    <li>Hvordan bruker vi estimater og timerapportering for å bidra til kontroll?
-                                        <ul>
-                                            <li>Timerapportering</li>
-                                            <li>MOSCOW</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="about-column">
-                                <img src="/gruppeside/icons/book-open.svg"/>
-                                <h3>Hvordan kan vi si noe om at ressursene er utnyttet på en god måte? </h3>
-                                <ul>
-
-                                    <li>Estimater</li>
-                                    <li>Ressursbruk</li>
-                                    <li>Overvåke sprints</li>
-                                </ul>
-                            </div>
+            <div class="container">
+                <a href="/gruppeside/" class="back-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                    </svg>
+                    Tilbake
+                </a>
+                <div class="container">
+                    <div class="about-content">
+                        <div class="about-column">
+                            <img src="/gruppeside/icons/book-open.svg"/>
+                            <h3>Hva konkret er det vi skal utvikle, gjøre?</h3>
+                            <p>
+                                Vi skal videutvikle et system fra Sikri. Elements er et system som gir innsikt i
+                                demokratiske
+                            </p>
+                        </div>
+                        <div class="about-column">
+                            <img src="/gruppeside/icons/book-open.svg"/>
+                            <h3>Hva er viktige kvalitetsapekter i vårt produkt?</h3>
+                            <p>
+                                Funksjonalitet, design og sikkerhet
+                            </p>
+                        </div>
+                        <div class="about-column">
+                            <img src="/gruppeside/icons/book-open.svg"/>
+                            <h3>Planer, backlogg, estimater, ressursbruk må vi ha oversikt over, kontroll på.</h3>
+                            <ul>
+                                <li>Spørre brukergruppen</li>
+                                <li>Kommunikasjon med Sikri om mangler</li>
+                                <li>Måle etter features</li>
+                                <li>Oppnå mål i sprints</li>
+                                <li>Brukertester gjennom perioden</li>
+                                <li>Iterere</li>
+                                <li>Måle kvalitetaspekter innad i gruppen (code reviews)</li>
+                                <li>Kvalitetsikre Backlog?
+                                    <ul>
+                                        <li>Estimere tid</li>
+                                        <li>Research</li>
+                                    </ul>
+                                </li>
+                                <li>Hvordan bruker vi estimater og timerapportering for å bidra til kontroll?
+                                    <ul>
+                                        <li>Timerapportering</li>
+                                        <li>MOSCOW</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about-column">
+                            <img src="/gruppeside/icons/book-open.svg"/>
+                            <h3>Hvordan kan vi si noe om at ressursene er utnyttet på en god måte? </h3>
+                            <ul>
+                                <li>Estimater</li>
+                                <li>Ressursbruk</li>
+                                <li>Overvåke sprints</li>
+                            </ul>
                         </div>
                     </div>
+                </div>
         </section>
     </main>
 </Layout>
